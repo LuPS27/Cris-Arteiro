@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #7A5C42;
+  --secondary: #E8DCC8;
+  --text-main: #3D2817;
+  --accent: #9B7653;
+  --background: #FAF6F0;
+  --card: #FFFFFF;
+}
+
+body {
+  background-image: linear-gradient(rgba(250, 246, 240, 0.85), rgba(250, 246, 240, 0.85)), url('https://iili.io/qf3eow7.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: var(--text-main);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.prose p {
+  margin-bottom: 1rem;
+}
